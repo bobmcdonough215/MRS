@@ -413,18 +413,15 @@ header>.container {
     transform: translateX(-50%) rotate(45deg);
     z-index: 1;
 }
-
 .menu-item-desc{
     padding: 50px 10px;
     color: #212529;
     margin: auto;
 }
-
 .menu-item-desc h6{
     color: #48B411;
     font-size: 20px;
 }
-
 .menu-item-desc h1{
     color: #101D2C;
     font-size: 30px;
