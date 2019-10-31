@@ -37,20 +37,18 @@ a{
     height: 4.8rem;
 }
 
-section {
-    padding: 60px 0;
+ section {
+    /* padding: 60px 0;  */
     width: 100%;
     height: 100%;
-}
+} 
 
 img{
-    width: 100%;
+    /* width: 100%; */
     max-width: 100%;
 }
 
-section{
-    padding: 50px 0;
-}
+
 
 .section-heading h1{
     font-size: 20px;
@@ -742,3 +740,45 @@ footer h5 {
         height: 280px;
     }
 }
+
+.header-image img{
+    width: 100%;
+    height: 50vh;
+
+}
+
+  /*Start Services*/
+/* .services{
+      margin: 0 auto;
+      height: 50vh;
+
+} 
+
+  .custom-header-container{
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(rgba(10, 23, 38, .81), rgba(10, 23, 38, .81)), url("/images/servicesHeaderImage.jpg") center no-repeat;
+    object-fit: cover;
+
+    /* clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
+
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr 1.4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "picture Services Services Services" "picture Home-repair Home-repair Home-Renovations" "picture Plumbing Plumbing Electrical";
+  }
+  
+  .picture { grid-area: picture; }
+  
+  .Services { grid-area: Services; }
+  
+  .Home-repair { grid-area: Home-repair; }
+  
+  .Home-Renovations { grid-area: Home-Renovations; }
+
+
+
+
