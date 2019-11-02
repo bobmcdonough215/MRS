@@ -20,10 +20,6 @@ a {
     color: #6c757d;
 }
 
-a {
-    text-decoration: none !important;
-    color: #6c757d;
-}
 
 /* animation: moveUp 1.5s ease-in; */
 
@@ -96,6 +92,14 @@ img {
     text-align: right;
     font-family: "Raleway";
     color: #eee;
+}
+
+.phone{
+    color: white;
+    font-family: "Raleway";
+    font-size: 14px;
+    float: right;
+    padding-right: 50px !important;
 }
 
 /* .main-nav-outer{
@@ -838,7 +842,7 @@ Start Services
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1.5fr .5fr 1fr;
     grid-template-rows: .7fr 1.1fr 1.2fr;
-    grid-template-areas: "picture picture picture services services services" "picture picture picture home-repair renovations renovations" "picture picture picture plumbing electrical electrical";
+    grid-template-areas: "picture picture picture services services services" "picture picture picture home-repair renovations renovations" "picture picture picture plumbing electrical electrical" ". . . roofing mold mold";
     grid-auto-rows: minmax(300px, auto);
     height: 100%;
     width: 100%;
@@ -855,6 +859,11 @@ Start Services
   .plumbing { grid-area: plumbing; }
   
   .electrical { grid-area: electrical; }
+
+  .roofing{ grid-area: roofing;}
+
+  .mold{ grid-area: mold;}
+
 
 .picture {
     grid-area: picture ;
@@ -896,6 +905,20 @@ Start Services
     padding-right: 20px;
 }
 
+.roofing{
+    grid-area: roofing;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.mold{
+    grid-area: mold;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+
 .services-header{
     font-family: "Raleway";
 }
@@ -923,6 +946,16 @@ p.services{
 }
 
 .painting img{
+    height: 25%;
+    width: 25%;
+}
+
+.roofing img{
+    height: 25%;
+    width: 25%;
+}
+
+.mold img{
     height: 25%;
     width: 25%;
 }
