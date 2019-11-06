@@ -85,8 +85,13 @@ img {
     text-align: right;
 }
 
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
 .main-nav .nav-link {
-    /* display: inline block; */
+    display: block;
     font-size: 14px;
     text-transform: uppercase;
     text-align: right;
@@ -101,6 +106,28 @@ img {
     float: right;
     padding-right: 50px !important;
 }
+
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+
+.sub-menu a{
+    color: #eee;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "Raleway";
+  }
+  
+  .sub-menu a:hover {background-color: #000;}
+  
+  .dropdown:hover .sub-menu{display: block;}
 
 /* .main-nav-outer{
     color: #eee;
@@ -138,6 +165,8 @@ img {
     display: inline block;
     opacity: 1;
 }
+
+
 
 /* .nav-icon > a{
     position: relative;
@@ -824,9 +853,10 @@ footer h5 {
 Start Services
 
 .section.services{
-      height: 50vh;
+      height: 50vh; 
       width: 100%;
       padding: 30px !important;
+      background-color: #222629;
 
 } 
 
@@ -840,6 +870,8 @@ Start Services
  
 .grid-container {
     display: grid;
+    background-color: #222629;
+    color: #eee;
     grid-template-columns: 1fr 1fr 1fr 1.5fr .5fr 1fr;
     grid-template-rows: .7fr 1.1fr 1.2fr;
     grid-template-areas: "picture picture picture services services services" "picture picture picture home-repair renovations renovations" "picture picture picture plumbing electrical electrical" ". . . roofing mold mold";
@@ -880,6 +912,8 @@ Start Services
     padding-left: 10px;
 
 }
+
+
 
 .home-repair {
     grid-area: home-repair;
@@ -996,7 +1030,7 @@ p.services{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: fill;;
       }
 
       .fa-facebook-square:hover {
@@ -1012,3 +1046,97 @@ p.services{
     height: 20rem;
     width: 15rem;
    }
+
+   .header-secondary{
+    width: 100%;
+    height: 75vh;
+    font-family: "Raleway", Arial, sans-serif;
+    background: linear-gradient(rgba(10, 23, 38, .81), rgba(10, 23, 38, .81)), url("images/image002-copy.jpg") center no-repeat;
+    /* background: linear-gradient(to right bottom, rgba(213, 23, 26, 0.6), rgba(180, 3, 0, 0.6)), url("images/fairmount.jpg") center no-repeat; */
+    background-size: cover;
+    position: relative;
+    /* letter-spacing: -3px; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
+}
+
+.heading-has-bg h1 {
+    font-family: Raleway;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 0.625rem 1.5rem rgba(0, 0, 0, .4);
+}
+
+.secondary-text-box {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: center
+}
+
+.secondary-primary-heading {
+    /* position: fixed; */
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 6rem;
+}
+
+.secondary-heading-main {
+    display: block;
+    font-size: 3rem;
+    font: weight 4;
+    letter-spacing: -3px;
+    margin-right: -3.5rem;
+    animation: moveLeft 1s ease-in;
+}
+ .secondary-heading-sub {
+    font-family: "Oswald";
+    display: block;
+    font-size: 2rem;
+    padding: 3px;
+    font-weight: 15;
+    margin-right: -1.75rem;
+    animation: moveRight 1s ease-in;
+} 
+
+/* .header-about{
+    width: 100%;
+    height: 55vh;
+    font-family: "Raleway", Arial, sans-serif;
+    background: url("images/team-photo.png") center no-repeat; */
+    /* background: linear-gradient(to right bottom, rgba(213, 23, 26, 0.6), rgba(180, 3, 0, 0.6)), url("images/fairmount.jpg") center no-repeat; */
+    /* background-size: cover;
+    position: relative; */
+    /* letter-spacing: -3px; */
+    /* clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
+/* }
+
+.about-grid-container {
+    display: grid;
+    background-color: #222629;
+    color: #eee;
+    grid-auto-rows: minmax(300px, auto);
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "Text-area-1 Text-area-1 Text-area-1 Text-area-1 picture-1 picture-1 picture-1" "Text-area-1 Text-area-1 Text-area-1 Text-area-1 picture-2 picture-2 picture-2" "Text-area-1 Text-area-1 Text-area-1 Text-area-1 picture-3 picture-3 picture-3" "Text-area-1 Text-area-1 Text-area-1 Text-area-1 picture-4 picture-4 picture-4";
+  }
+  
+  .Text-area-1 { grid-area: Text-area-1;
+    text-align: center;
+    
+}
+  
+  .picture-1 { grid-area: picture-1; }
+  
+  .picture-2 { grid-area: picture-2; }
+  
+  .picture-3 { grid-area: picture-3; }
+  
+  .picture-4 { grid-area: picture-4; } */
+
+  p a{
+      color: #000;
+  }
