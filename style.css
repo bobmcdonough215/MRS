@@ -1100,19 +1100,19 @@ p.services{
     animation: moveRight 1s ease-in;
 } 
 
-/* .header-about{
+.header-about{
     width: 100%;
-    height: 55vh;
+    height: 45vh;
     font-family: "Raleway", Arial, sans-serif;
-    background: url("images/team-photo.png") center no-repeat; */
-    /* background: linear-gradient(to right bottom, rgba(213, 23, 26, 0.6), rgba(180, 3, 0, 0.6)), url("images/fairmount.jpg") center no-repeat; */
-    /* background-size: cover;
-    position: relative; */
-    /* letter-spacing: -3px; */
-    /* clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%); */
-/* }
+    background: url("images/team-photo.png") center no-repeat;
+    /* background: linear-gradient(to right bottom, rgba(213, 23, 26, 0.6), rgba(180, 3, 0, 0.6)), url("images/fairmount.jpg") center no-repeat;  */
+     background-size: cover;
+    position: relative; 
+     letter-spacing: -3px; 
+     clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+ }
 
-.about-grid-container {
+/* .about-grid-container {
     display: grid;
     background-color: #222629;
     color: #eee;
@@ -1139,4 +1139,4 @@ p.services{
 
   p a{
       color: #000;
-  }
+  } */
