@@ -21,3 +21,12 @@ function initMap() {
     var marker = new google.maps.Marker({position: MRS, map: map});
   }
 
+// MDB Lightbox Init
+// $(function () {
+//     $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+//     });
+
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
