@@ -1391,3 +1391,11 @@ p.services{
     font-weight: 300;
     letter-spacing: 1px;
 }
+
+.services-bullets{
+
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+
+}
