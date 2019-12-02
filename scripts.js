@@ -32,3 +32,4 @@ $(document).on("click", '[data-toggle="lightbox"]', function(event) {
   });
 
   baguetteBox.run('.tz-gallery');
+
