@@ -102,8 +102,8 @@ img {
 
 .phone{
     color: white;
-    font-family: "Raleway";
-    font-size: 14px;
+    font-family: "Impact";
+    font-size: 20px;
     float: right;
     padding-right: 50px !important;
 }
@@ -176,7 +176,7 @@ img {
 .heading-has-bg {
     width: 100%;
     height: 95vh;
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: "Futura";
     background: linear-gradient(rgba(34, 38, 41, 0.8), rgba(34, 38, 41, 0.1)), url("/images/fairmount.jpg") center no-repeat;
     /* background: linear-gradient(to right bottom, rgba(213, 23, 26, 0.6), rgba(180, 3, 0, 0.6)), url("images/fairmount.jpg") center no-repeat; */
     background-size: cover;
@@ -258,7 +258,7 @@ img {
 }
 
 .heading-sub {
-    font-family: "Oswald";
+    font-family: "Raleway";
     display: block;
     font-size: 2rem;
     padding: 3px;
@@ -305,13 +305,13 @@ img {
     padding: 50px;
     text-transform: uppercase;
     font-size: 8.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     opacity: .8;
     color: #151515;
     line-height: 0;
-    font-family: 'Staatliches', sans-serif;
+    font-family: 'Raleway';
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: -8px;
 }
 
 .about-sub {
@@ -319,7 +319,7 @@ img {
     font-weight: bold;
     font-size: 3rem;
     color: #48B411;
-    letter-spacing: -4px;
+    text-align: center;
 }
 
 .about .btn {
@@ -361,7 +361,7 @@ img {
 }
 
 .menu-header h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 3rem;
     padding-bottom: 3rem;
 }
@@ -373,7 +373,7 @@ img {
     opacity: .4;
     color: #fff;
     line-height: 0;
-    font-family: 'Staatliches', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
 
@@ -1093,7 +1093,7 @@ p.services{
     animation: moveLeft 1s ease-in;
 }
  .secondary-heading-sub {
-    font-family: "Oswald";
+    font-family: "Raleway";
     display: block;
     font-size: 2rem;
     padding: 3px;
@@ -1147,15 +1147,16 @@ p.services{
 
   .submenu-heading {
     text-transform: uppercase;
-    font-size: 8.5rem;
+    font-size: 6rem;
     padding-bottom: 1.5rem;
     opacity: .8;
     color: #151515;
     line-height: 0;
-    font-family: 'Staatliches', sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
+    font-family: 'Raleway';
+    font-weight: 'bold';
+    /* letter-spacing: 1px; */
     text-align:center;
+    letter-spacing: -3px;
 }
 
 
@@ -1164,8 +1165,8 @@ p.services{
     font-weight: bold;
     font-size: 3rem;
     color: #48B411;
-    letter-spacing: -4px;
     text-align: center;
+    
 }
 /* 
 .truck-reno img{
@@ -1329,14 +1330,14 @@ p.services{
   .servicespage-main {
     padding: 50px;
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     padding-bottom: 0rem;
     opacity: .8;
     color: #151515;
     line-height: 0;
-    font-family: 'Staatliches', sans-serif;
+    font-family: 'Raleway';
     font-weight: 900;
-    letter-spacing: 1px;
+    letter-spacing: -2px;
 }
 
 .grid-container {
